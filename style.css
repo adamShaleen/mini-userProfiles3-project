@@ -1,0 +1,15 @@
+body {
+    margin: auto;
+    text-align: center;
+    background: rgb(106, 179, 14);
+}
+
+hr {
+    margin: auto;
+    width: 25%;
+}
+
+img {
+    margin-bottom: 2%;
+    border-radius: 5%;
+}

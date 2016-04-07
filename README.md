@@ -1,10 +1,15 @@
 # User Profiles
 ### Understanding Services with $q
-Now returning to our project where we are pulling user profiles, we've made some good progress. We can now make real life API requests for data using $http (AJAX requests)!
+Now returning to our project where we are pulling user profiles,
+we've made some good progress. We can now make real life API requests
+for data using $http (AJAX requests)!
 
-But what happens if we want to have a bit more granular control over our code. Sometimes you'll want to manipulate your data before you send it over to the controller. That's where $q comes into play!
+But what happens if we want to have a bit more granular control over our code.
+Sometimes you'll want to manipulate your data before you send it over to the controller.
+That's where $q comes into play!
 
-$q allows us to hold off on sending our data over until we're ready. It's fairly simple. All we need to do is edit our service.
+$q allows us to hold off on sending our data over until we're ready. It's fairly simple.
+All we need to do is edit our service.
 
 ## Step 1 Our Service
 - Inject $q into the service
